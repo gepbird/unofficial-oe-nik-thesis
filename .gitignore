@@ -1,2 +1,5 @@
 # Nix build outputs
 result*
+
+# Compiled documents
+*.pdf
