@@ -27,5 +27,4 @@ compiler = "0.15.1"
 [template]
 path = "template"
 entrypoint = "main.typ"
-# TODO: add the thumbnail
 thumbnail = "thumbnail.png"

@@ -9,5 +9,6 @@
       enable = true;
       lineWidth = 120;
     };
+    shfmt.enable = true;
   };
 }

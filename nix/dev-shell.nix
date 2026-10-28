@@ -12,6 +12,7 @@ in
           typst
           typstyle
           tinymist
+          self'.packages.thumbnail
         ];
 
         env.TYPST_FONT_PATHS = "${self'.packages.nimbus}/share/fonts";
