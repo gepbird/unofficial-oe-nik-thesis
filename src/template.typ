@@ -416,7 +416,7 @@
   // as images."
   // Guide appendix 3: "Confidentiality document, if confidentiality of the thesis has been approved"
   // Docx: the worksheet is 2 pages, the others 1, the confidentiality document has no form (Guide appendix 7)
-  for (name, title, pages, page-count) in (
+  for (name, form, pages, page-count) in (
     ("worksheet", "Worksheet", worksheet, 2),
     ("declaration", "Student declaration", declaration, 1),
     ("consultation-log", "Consultation log", consultation-log, 1),
@@ -433,7 +433,7 @@
     if pages == auto {
       let message = (
         "the signed "
-          + lower(title)
+          + lower(form)
           + " is missing, insert it as a PDF with `"
           + name
           + ": path(\"signed/"
@@ -447,8 +447,12 @@
       pages = range(1, page-count + 1).map(n => {
         set par(justify: false)
         align(center + horizon, block(width: 70%)[
-          #text(red, size: 14pt, upper(title)) \
+          #text(red, size: 14pt, upper(form)) \
           #text(red)[placeholder, page #n of #page-count]
+          // Docx: the worksheet has the title, "A dolgozat címe:", so the placeholder shows it to check
+          #if name == "worksheet" and n == 1 {
+            linebreak() + text(red)[#(hu: "A dolgozat címe", en: "Title of the thesis").at(lang): #title]
+          }
 
           #note(message)
         ])
