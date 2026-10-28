@@ -25,7 +25,6 @@ repository = "https://github.com/gepbird/unofficial-oe-nik-thesis"
 compiler = "0.15.1"
 
 [template]
-# TODO: add the starter project
 path = "template"
 entrypoint = "main.typ"
 # TODO: add the thumbnail
