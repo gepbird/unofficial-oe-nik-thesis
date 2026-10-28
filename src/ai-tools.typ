@@ -1,5 +1,5 @@
 // The list of the used AI tools ("Használt Mesterséges Intelligencia Eszközök") required by the AI instruction
-// (18/2026. rector's instruction, see ../template.typ), the section numbers below are its. Typst only supports a
+// (18/2026. rector's instruction, see template.typ), the section numbers below are its. Typst only supports a
 // single bibliography, so the entries are figures of their own kind, numbered [AI1], [AI2], ... and referenced with
 // `@label` like bibliography entries.
 
