@@ -69,6 +69,12 @@
     value in (auto, none) or type(value) == dictionary and value.keys().all(key => key in languages),
     message: "`" + name + "` must be `(hu: [...], en: [...])`, `auto` or `none`, got " + repr(value),
   )
+  if type(value) == dictionary {
+    for (key, part) in value {
+      let hint = "e.g. `include \"chapters/" + name + "-" + key + ".typ\"`"
+      assert-type((content, str, auto, none), name + "." + key, part, hint: hint)
+    }
+  }
   if value == auto { (:) } else if value == none { (hu: none, en: none) } else { value }
 }
 
