@@ -13,6 +13,7 @@ in
           typstyle
           tinymist
           self'.packages.typst-package-check
+          tytanic
           self'.packages.thumbnail
         ];
 
