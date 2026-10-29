@@ -14,6 +14,7 @@ in
           tinymist
           self'.packages.typst-package-check
           tytanic
+          typos
           self'.packages.thumbnail
         ];
 
