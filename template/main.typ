@@ -7,7 +7,7 @@
   degree: "BSc",
   // the year of submission
   year: 2026,
-  title: "A Typst template for ÓU NIK theses",
+  title: "A Typst template for ÓE NIK theses",
   author: "Jakab Gipsz",
   // not the Neptun code, see Neptun: Studies -> Registry record -> Training data -> "Regirty number (Neptun's typo)"
   registration-number: "T/0012345/FI12904/N",
