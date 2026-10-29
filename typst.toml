@@ -22,7 +22,7 @@ keywords = [
 categories = ["thesis"]
 disciplines = ["computer-science", "engineering"]
 repository = "https://github.com/gepbird/unofficial-oe-nik-thesis"
-compiler = "0.15.1"
+compiler = "0.15.0"
 
 [template]
 path = "template"
