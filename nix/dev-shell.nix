@@ -12,6 +12,7 @@ in
           typst
           typstyle
           tinymist
+          self'.packages.typst-package-check
           self'.packages.thumbnail
         ];
 
