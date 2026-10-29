@@ -4,7 +4,7 @@ version = "0.1.0"
 entrypoint = "lib.typ"
 license = "MIT-0"
 authors = ["Gergő István Gutyina <https://github.com/gepbird>"]
-description = "Thesis at the John von Neumann Faculty of Informatics, Óbuda University."
+description = "Thesis at Óbuda University's Faculty of Informatics (NIK)."
 keywords = [
   "ÓE",
   "OE",
