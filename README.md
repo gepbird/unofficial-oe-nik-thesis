@@ -193,3 +193,5 @@ The template is licensed under [MIT-0](LICENSE), you can use it without attribut
 
 The Óbuda University logo (`src/cover/oe-logo.svg`) and the seal of the faculty (`src/cover/nik-seal.png`) are not covered by this license.
 They are owned by Óbuda University and are distributed with the template with its permission.
+They are converted from the cover page of the faculty's [Word sample thesis](https://nik.uni-obuda.hu/wp-content/uploads/2025/12/SZD_DM_Word_dolgozat_sablon_2025.docx), which the faculty publishes for students to write their theses with.
+The university's [rector's instruction on its logo](https://uni-obuda.hu/wp-content/uploads/2025/01/3_2025_Rektori_Utasitas_jubileum_logo.pdf) asks to use its visual identity in its original form, without changing its colors, fonts or layout.
