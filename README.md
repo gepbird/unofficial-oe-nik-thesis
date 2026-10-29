@@ -61,7 +61,7 @@ typst watch --font-path fonts main.typ
 With Nix, the repository's flake has them as a package:
 
 ```sh
-export TYPST_FONT_PATHS=$(nix build --no-link --print-out-paths github:gepbird/unofficial-oe-nik-thesis#nimbus)/share/fonts
+export TYPST_FONT_PATHS=$(nix build --no-link --print-out-paths github:gepbird/unofficial-oe-nik-thesis/v0.1.0#nimbus)/share/fonts
 typst watch main.typ
 ```
 
