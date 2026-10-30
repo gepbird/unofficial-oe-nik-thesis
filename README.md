@@ -12,7 +12,7 @@ In the [web app](https://typst.app), choose "Start from template" and search for
 On the command line, create a project and compile it on every change:
 
 ```sh
-typst init @preview/unofficial-oe-nik-thesis:0.1.0 thesis
+typst init @preview/unofficial-oe-nik-thesis:0.1.1 thesis
 cd thesis
 typst watch main.typ
 ```
@@ -21,7 +21,7 @@ The new project is an example thesis that shows what the template can do, replac
 The smallest thesis looks like this:
 
 ```typ
-#import "@preview/unofficial-oe-nik-thesis:0.1.0": thesis-template
+#import "@preview/unofficial-oe-nik-thesis:0.1.1": thesis-template
 
 #show: thesis-template.with(
   lang: "en",
@@ -61,7 +61,7 @@ typst watch --font-path fonts main.typ
 With Nix, the repository's flake has them as a package:
 
 ```sh
-export TYPST_FONT_PATHS=$(nix build --no-link --print-out-paths github:gepbird/unofficial-oe-nik-thesis/v0.1.0#nimbus)/share/fonts
+export TYPST_FONT_PATHS=$(nix build --no-link --print-out-paths github:gepbird/unofficial-oe-nik-thesis/v0.1.1#nimbus)/share/fonts
 typst watch main.typ
 ```
 
@@ -123,7 +123,7 @@ Add each tool with `ai-tool` and a label, then reference it in the text where yo
 Text written by AI has to be in italics followed by the reference, `ai-generated` does that:
 
 ```typ
-#import "@preview/unofficial-oe-nik-thesis:0.1.0": ai-generated, ai-tool, thesis-template
+#import "@preview/unofficial-oe-nik-thesis:0.1.1": ai-generated, ai-tool, thesis-template
 
 #show: thesis-template.with(
   // ...

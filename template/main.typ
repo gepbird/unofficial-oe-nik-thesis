@@ -1,4 +1,4 @@
-#import "@preview/unofficial-oe-nik-thesis:0.1.0": ai-tool, thesis-template
+#import "@preview/unofficial-oe-nik-thesis:0.1.1": ai-tool, thesis-template
 
 #show: thesis-template.with(
   // "en" or "hu", the language of the cover page, the generated titles, the captions and the references
