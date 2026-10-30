@@ -65,6 +65,19 @@ export TYPST_FONT_PATHS=$(nix build --no-link --print-out-paths github:gepbird/u
 typst watch main.typ
 ```
 
+To use other fonts, like the original Times New Roman and Arial if you have them, change them with the `fonts` parameter:
+
+```typ
+#show: thesis-template.with(
+  // ...
+  fonts: (serif: "Times New Roman", sans: "Arial"),
+)
+```
+
+`serif` is the font of the text and the thesis type on the cover page, `sans` is the font of the rest of the cover page.
+Each can be a font name or an array of fallbacks, and a font you leave out stays the default.
+The line spacing is calculated from the line height of Times New Roman, and it stays the same with other fonts.
+
 ## Features
 
 The template takes care of the formal requirements:
@@ -98,6 +111,7 @@ Instead, you need to insert the signed PDFs, until then a placeholder marks thei
 | `appendices` | `none` | each appendix is a subchapter, e.g. `[== Source code ...]` |
 | `ai-tools` | `none` | the AI tools you used, see below |
 | `body-length`, `summary-length` | `auto` | changes to the length limits, see below |
+| `fonts` | `auto` | other fonts, e.g. `(serif: "Times New Roman", sans: "Arial")`, see [Fonts](#fonts) |
 | `draft` | `true` | `false` for the version to submit |
 
 A part that is `auto` is still missing and shows up as a red note, `none` leaves it out.
