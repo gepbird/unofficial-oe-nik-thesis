@@ -8,7 +8,7 @@
     [lists of figures and tables], [manual update], [automatic],
     [length limits], [not checked], [checked],
   ),
-  caption: [Comparison with the Word template],
+  caption: [Comparison with the Word template -- source: own work],
 ) <comparison>
 
 @comparison shows what the template does automatically that has to be done by hand in the Word template.

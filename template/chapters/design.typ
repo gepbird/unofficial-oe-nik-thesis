@@ -9,7 +9,7 @@
       .map(part => box(stroke: 0.5pt, inset: 0.8em, part))
       .intersperse($arrow.r$),
   ),
-  caption: [The parts of the thesis],
+  caption: [The parts of the thesis -- source: own work],
 ) <parts>
 
 @parts shows the parts of the thesis, in the order of the guide's appendix 3.

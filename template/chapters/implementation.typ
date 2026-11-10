@@ -12,7 +12,7 @@
     consultation-log: path("signed/consultation-log.pdf"),
   )
   ```,
-  caption: [Inserting the signed forms],
+  caption: [Inserting the signed forms -- source: own work],
 ) <signed-forms>
 
 The signed forms are scanned to @pdf and inserted as shown in @signed-forms.
