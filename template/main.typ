@@ -55,8 +55,10 @@
 )
 
 #include "chapters/introduction.typ"
+#include "chapters/background.typ"
 #include "chapters/requirements.typ"
 #include "chapters/related-work.typ"
 #include "chapters/design.typ"
 #include "chapters/implementation.typ"
 #include "chapters/evaluation.typ"
+#include "chapters/conclusion.typ"

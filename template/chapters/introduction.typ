@@ -6,5 +6,5 @@ I made a Typst template that takes care of them.
 
 == Structure of the thesis
 
-@requirements covers the requirements and @related-work the existing templates.
-@design and @implementation describe the template, and @evaluation compares it with the Word template.
+@background introduces Typst, @requirements covers the requirements and @related-work the existing templates.
+@design and @implementation describe the template, @evaluation compares it with the Word template, and @conclusion sums up the results.

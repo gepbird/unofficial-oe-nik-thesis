@@ -12,7 +12,3 @@
 ) <comparison>
 
 @comparison shows what the template does automatically that has to be done by hand in the Word template.
-
-== Further development
-
-#lorem(40)
